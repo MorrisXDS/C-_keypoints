@@ -12,5 +12,5 @@ When a virtual method is called, the method lookup starts from the the class typ
 
 
 ## Summary:
-When a **non-virtual method is called**, we look at the static type of the caller nad if it is not there, check its ancestors until we find it.
-When a **virtual method is called**, we look at the underlying referenced object type nad if it is not there, check its ancestors until we find it.
+When a **non-virtual method is called**, we look at the static type of the caller and if it is not there, check its ancestors until we find it.\
+When a **virtual method is called**, we look at the underlying referenced object type and if it is not there, check its ancestors until we find it.\
